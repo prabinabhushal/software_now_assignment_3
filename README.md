@@ -33,5 +33,25 @@ note: if u don't have installed tikinde than install using
 python main.py
 
 
+## repo Structure
 
+├── main.py                 # Main entry point
+├── requirements.txt        # Required Python packages
+├── README.md               # Project documentation
+├── github_link.txt         # GitHub repository link
+│
+├── src/
+│   ├── __init__.py
+│   ├── app.py              # Creates the Tkinter root and starts the app
+│   ├── gui.py              # PuzzleGUI and user interface
+│   ├── puzzle.py           # PuzzleGame and game logic
+│   ├── tile.py             # BaseTile and PuzzleTile classes
+│   ├── transformations.py  # Transformation classes
+│   └── image_processor.py  # Image processing functions
+│
+├── assets/
+│   └── README.md
+│
+└── outputs/
+    └── README.md
 
