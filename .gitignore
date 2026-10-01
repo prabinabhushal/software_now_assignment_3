@@ -1,0 +1,11 @@
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# macOS / editor noise
+.DS_Store
+.vscode/
+
+
